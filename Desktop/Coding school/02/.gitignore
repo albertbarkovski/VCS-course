@@ -1,6 +1,0 @@
-# Ignore everything
-/*
-
-# Allow the current directory and its contents
-!./
-!./**
