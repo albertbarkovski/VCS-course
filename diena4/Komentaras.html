@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Komentaras</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <button
@@ -17,7 +22,7 @@
       <a href="../index.html">Grizti i pagrindini puslapi</a>
     </button>
     <h1>Bog'as</h1>
-    <table border="1">
+    <table class="lentele1" border="1" width="100%">
       <tr>
         <td valign="top">
           <table>
@@ -27,7 +32,7 @@
               </td>
             </tr>
             <tr>
-              <td>
+              <td class="langeliai">
                 <ul>
                   <li><a href="">Naujiena #1</a></li>
                   <li><a href="">Naujiena #2</a></li>
@@ -36,7 +41,7 @@
               </td>
             </tr>
             <tr>
-              <td>
+              <td class="langeliai">
                 <p>
                   <mark>Paieskoti kaip isliginti td dali </mark>
                 </p>
@@ -44,31 +49,30 @@
             </tr>
           </table>
         </td>
-        <td>
+        <td class="langeliai">
           <table>
             <tr>
               <td
+                class="langeliai"
                 rowspan="4
               "
                 valign="top"
               >
                 <img
-                  src="../images/kalnai.jpg"
+                  src="../images/duck.png"
                   alt=""
                   width="150"
                   height="150"
                   valign="top"
                 />
               </td>
-              <td><h2>Naujiena #1</h2></td>
+              <td class="langeliai"><h2 style="color: red">Naujiena #1</h2></td>
             </tr>
             <tr>
               <td>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Porro, sint obcaecati autem accusamus eum, magnam vero in
-                  perspiciatis velit fugiat ab corrupti pariatur nihil illo.
-                  Enim ratione sunt nesciunt expedita!
+                <p id="pirmas-paragrafas">
+                  Antis yra vandens paukštis, kuris dažnai randamas ežeruose ir
+                  upėse. Jos plunksnos yra atsparios vandeniui.
                 </p>
               </td>
             </tr>
@@ -79,7 +83,7 @@
             </tr>
             <tr>
               <td>
-                <form>
+                <!-- <form>
                   Vardas
                   <br />
                   <input type="text" />
@@ -92,7 +96,30 @@
                   <textarea name="" id=""></textarea>
                   <br />
                   <button type="submit">Rasyti Atsiliepima</button>
-                </form>
+                </form> -->
+                <table>
+                  <tr>
+                    <td>
+                      <form action="">
+                        <input type="text" placeholder="Vardas" />
+
+                        <textarea
+                          name="Atsiliepimas"
+                          id=""
+                          placeholder="Atsiliepimas"
+                        ></textarea>
+                      </form>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <form action="">
+                        <input type="email" placeholder="El. pastas" />
+                        <input type="submit" value="Resyti Atsiliepima" />
+                      </form>
+                    </td>
+                  </tr>
+                </table>
               </td>
             </tr>
           </table>
