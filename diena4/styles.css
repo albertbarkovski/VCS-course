@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(181, 214, 181);
+  font-family: "open sans", sans-serif;
+}
+h1,
+h2,
+h3 {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 3em;
+  text-align: center;
+}
+.lentele1 {
+  background-image: url(../images/xp.png);
+  background-size: cover;
+}
+td {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.langeliai {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+#pirmas-paragrafas {
+  color: aqua;
+  justify-content: center;
+}
+a {
+  color: rgb(34, 34, 145);
+}
+
+a:hover {
+  color: rgb(145, 34, 34);
+}
