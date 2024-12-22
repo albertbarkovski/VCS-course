@@ -11,11 +11,13 @@
       <tr>
         <td class="nav" colspan="4">
           <h1>Navigacija</h1>
-          <p>
-            <a href="">Pradžia</a> | <a href="">Apie</a> |
-            <a href="">Kontaktai</a> |
-            <a href="">Dienoraštis</a>
-          </p>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="">Pradžia</a> |</li>
+            <li class="nav-item"><a href="">Apie</a> |</li>
+            <li class="nav-item"><a href="">Kontaktai</a> |</li>
+            <li class="nav-item"><a href="">Dienoraštis</a></li>
+          </ul>
+          <!--  -->
         </td>
       </tr>
       <tr>
@@ -25,8 +27,8 @@
             Vartotojo vardas: <br />
             <input type="text" /> <br />
             Slaptažodis <br />
-            <input type="password" /><br />
-            <input type="submit" value="Prisijungti" />
+            <input type="password" /><br /><br />
+            <input class="btn" type="submit" value="Prisijungti" />
           </form>
           <hr />
           <h3>
@@ -43,8 +45,8 @@
           <p>Ar jums patinka mūsų svetainė?</p>
           <form action="apklausa">
             <input type="radio" name="lytis" value="Taip" />Taip <br />
-            <input type="radio" name="lytis" value="Ne" />Ne <br />
-            <input type="submit" value="Balsuoti" />
+            <input type="radio" name="lytis" value="Ne" />Ne <br /><br />
+            <input class="btn" type="submit" value="Balsuoti" />
           </form>
           <br />
         </td>
@@ -78,18 +80,20 @@
           </ol>
           <hr />
           <h3>Galerija</h3>
-          <img src="/images/xp.png" class="xp-img" /> <br />
-          <img src="/images/xp.png" class="xp-img" />
-          <hr />
+          <div class="images">
+            <img src="/images/xp.png" class="xp-img" /> <br />
+            <img src="/images/xp.png" class="xp-img" />
+            <hr />
+          </div>
           <h3>Prenumerata</h3>
           <form action="prenumerata">
             El.paštas: <br />
-            <input type="email" /><br />
-            <input type="submit" value="Prenumeruoti" />
+            <input type="email" /><br /><br />
+            <input class="btn" type="submit" value="Prenumeruoti" />
           </form>
         </td>
       </tr>
-      <tr>
+      <tr class="footer">
         <td colspan="4">
           <footer>
             <p>&copy; 2024 Mano svetainė. Visos teisės saugomos</p>

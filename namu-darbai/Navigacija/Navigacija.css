@@ -5,6 +5,7 @@ body {
   margin: 2px;
 }
 table {
+  border-collapse: collapse;
   border: 5px solid black;
 }
 
@@ -13,8 +14,93 @@ table {
   justify-items: center;
 }
 
+.nav h1 {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 3px;
+  padding: 0px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
 .col1,
 .col2,
 .col3 {
   vertical-align: top;
+}
+
+.col1 {
+  padding: 10px;
+}
+
+.col1 h3 {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 26px;
+}
+
+.col1 form input {
+  background-color: rgb(234, 226, 109);
+}
+
+.col1 ul :nth-child(2) {
+  color: red;
+}
+
+.col2 {
+  padding: 10px;
+}
+
+.col2 h2 {
+  font-size: 32px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.col2 h3 {
+  font-size: 24px;
+  color: green;
+}
+
+.col3 {
+  padding: 10px;
+}
+
+.col3 h3 {
+  font-size: 26px;
+  color: rgba(0, 0, 0, 0.6);
+  flex-wrap: wrap;
+}
+
+.col3 ol :nth-child(3) {
+  color: red;
+}
+.col3 .images {
+  justify-items: center;
+}
+
+.col3 img {
+  width: 150px;
+}
+
+.col3 form input {
+  background-color: rgb(234, 226, 109);
+}
+
+.footer {
+  background-color: orange;
+  text-align: center;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: orange;
+  color: white;
+  transition: all ease 0.2s;
 }
