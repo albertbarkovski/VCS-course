@@ -72,3 +72,12 @@ li {
 img {
   height: 200px;
 }
+
+ul {
+  list-style-type: none;
+}
+
+ul li ::before {
+  content: "\2655";
+  color: red;
+}

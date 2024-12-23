@@ -1,0 +1,25 @@
+body {
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.table {
+  background-color: white;
+  align-items: center;
+  text-align: center;
+  height: 170px;
+  width: 600px;
+  margin: 20px 0px;
+  padding: 10px 0px;
+}
+
+button {
+  border: unset;
+  padding: 10px;
+  background-color: pink;
+}
+
+button:hover {
+  cursor: pointer;
+}

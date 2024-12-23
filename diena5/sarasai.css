@@ -1,0 +1,29 @@
+body {
+  background-color: antiquewhite;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.pirmas {
+  list-style-type: georgian;
+}
+
+.antras {
+  list-style-type: none;
+}
+.antras > li {
+  text-transform: uppercase;
+  color: blue;
+}
+
+.antras > li::before {
+  content: "\2665";
+  color: red;
+}
+
+.trecias {
+  list-style-type: lower-greek;
+}
+
+.trecias li {
+  color: purple;
+  font-weight: 600;
+}
