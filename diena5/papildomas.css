@@ -15,9 +15,9 @@ body {
 }
 
 button {
+  background-color: pink;
   border: unset;
   padding: 10px;
-  background-color: pink;
 }
 
 button:hover {
