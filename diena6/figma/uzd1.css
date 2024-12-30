@@ -1,0 +1,19 @@
+body {
+  background-color: aqua;
+}
+
+#pirmas {
+  width: 276px;
+  height: 345px;
+  border: 3px solid black;
+  border-radius: 12px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.media {
+  width: 276px;
+  height: 176px;
+
+  background-image: url(images/maistas.jpg);
+  background-size: cover;
+}
