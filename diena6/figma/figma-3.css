@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(19, 20, 23, 1);
+}
+
+main {
+  background-color: rgba(34, 34, 37, 0.7);
+  width: 675px;
+  height: 355px;
+  padding: 65px 72px 66px 72px;
+  border-radius: 12px 0px 0px 0px;
+  margin: 106px auto;
+  position: relative;
+}
+h1 {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0.41999998688697815px;
+}
+p {
+  width: 525px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #ffffff;
+}
+button {
+  padding: 8px 16px;
+
+  position: absolute;
+  width: 144px;
+  height: 42px;
+  left: 72px;
+  bottom: 66px;
+
+  border: 2px solid #f17965;
+  border-radius: 12px;
+}
+button a {
+  text-decoration: none;
+  color: #f17965;
+}
+
+button:hover {
+  background: #f79090;
+  border: 2px solid #f17965;
+  border-radius: 12px;
+}

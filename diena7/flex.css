@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.pirmas {
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.antras {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  justify-content: space-evenly;
+}
+.antras p {
+  background-color: white;
+  width: 600px;
+}
+.trecias {
+  background-color: orange;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.trecias p {
+  width: 400px;
+  background-color: white;
+}
+.ketvirtas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: red;
+}
+
+.ketvirtas p {
+  background-color: orange;
+  width: 250px;
+}
