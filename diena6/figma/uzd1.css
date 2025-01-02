@@ -1,19 +1,98 @@
 body {
-  background-color: aqua;
+  font-family: inter;
+  padding: 0;
+  height: 100vh;
 }
 
-#pirmas {
+.card {
   width: 276px;
   height: 345px;
-  border: 3px solid black;
-  border-radius: 12px 0px 0px 0px;
-  opacity: 0px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
-.media {
-  width: 276px;
-  height: 176px;
+.card-image {
+  position: relative;
+  height: 50%;
+}
 
-  background-image: url(images/maistas.jpg);
-  background-size: cover;
+.card-image img {
+  width: 100%;
+  height: 50%;
+  height: auto;
+  display: block;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.date {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: white;
+  border-radius: 8px;
+  padding: 8px 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.date-day {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.date-month {
+  font-size: 12px;
+  color: gray;
+  text-transform: uppercase;
+}
+
+/* Content Section */
+.card-content {
+  padding: 16px;
+}
+
+.event-type {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.event-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+
+/* Actions Section */
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-button {
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+}
+
+.action-button.bookmark {
+  background-image: url(images/Button.svg); /* Replace with actual icon URL */
+}
+
+.action-button.share {
+  background-image: url(images/Button-2.svg); /* Replace with actual icon URL */
 }
