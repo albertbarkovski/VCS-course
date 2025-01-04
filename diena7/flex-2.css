@@ -1,63 +1,44 @@
 body {
   display: flex;
   flex-direction: column;
+  width: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  background-color: white;
+  width: 250px;
+  margin: 15px;
 }
 
 div:nth-child(1) {
-  background-color: red;
+  height: 350px;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-div:nth-child(1) p {
-  width: 200px;
-  background-color: white;
-  margin: 10px;
-  height: 250px;
 }
 
 div:nth-child(2) {
-  background-color: orange;
   display: flex;
-  flex-direction: row;
   justify-content: flex-end;
+  height: 350px;
 }
-div:nth-child(2) p {
-  width: 200px;
-  background-color: white;
-  margin: 10px;
-  padding-bottom: 20px;
-}
+
 div:nth-child(3) {
-  background-color: pink;
+  height: 450px;
   display: flex;
-  flex-direction: row;
-}
-div:nth-child(3) p {
-  background-color: white;
-  margin: 50px;
-  width: 200px;
+  align-items: center;
 }
 
 div:nth-child(4) {
-  background-color: rgb(196, 255, 192);
+  height: 500px;
   display: flex;
-  flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
-div:nth-child(4) p {
-  background-color: white;
-  margin: 50px;
-  width: 200px;
-}
+
 div:nth-child(5) {
-  background-color: rgb(232, 85, 110);
+  height: 400px;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
   align-items: flex-end;
-}
-div:nth-child(5) p {
-  background-color: white;
-  width: 200px;
+  justify-content: flex-end;
 }
