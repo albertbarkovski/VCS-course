@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  background-color: white;
+  width: 250px;
+  margin: 15px;
+}
+
+div:nth-child(1) {
+  height: 350px;
+  display: flex;
+}
+
+div:nth-child(2) {
+  display: flex;
+  justify-content: flex-end;
+  height: 350px;
+}
+
+div:nth-child(3) {
+  height: 450px;
+  display: flex;
+  align-items: center;
+}
+
+div:nth-child(4) {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div:nth-child(5) {
+  height: 400px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}

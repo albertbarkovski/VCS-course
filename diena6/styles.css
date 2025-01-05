@@ -1,0 +1,72 @@
+#pirmas p,
+#pirmas a {
+  font-size: 2em;
+}
+
+#pirmas p mark:hover {
+  position: relative;
+  bottom: 10px;
+}
+
+#pirmas a:hover {
+  position: relative;
+  left: 20px;
+}
+
+#virsus-blokas {
+  background-color: red;
+  padding: 5px;
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  margin: 0;
+  border: 3px solid black;
+}
+
+#virsus-blokas a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+html,
+#antras {
+  margin: 0;
+  padding: 0;
+}
+
+#antras {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#antras header {
+  background-image: url(/images/vytas.png);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+header #info {
+  position: absolute;
+  left: 50px;
+  bottom: 80px;
+  margin: 0;
+  background: none;
+}
+
+header #info h1 {
+  margin: 0;
+  display: inline-block;
+  background-color: rgba(255, 192, 203, 0.477);
+  color: purple;
+  font-size: 5em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+header #info p {
+  background-color: rgba(128, 0, 128, 0.488);
+  color: pink;
+  font-size: 1.5em;
+  max-width: 40%;
+}

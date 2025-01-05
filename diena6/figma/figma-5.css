@@ -1,0 +1,42 @@
+body {
+  width: 796px;
+  margin: 0;
+
+  background: #ffffff;
+  position: relative;
+}
+
+.info section {
+  background: linear-gradient(
+      180deg,
+      #afbacb 0%,
+      rgba(175, 186, 203, 0) 110.33%
+    ),
+    #ffffff;
+
+  margin: 0;
+  position: sticky;
+  top: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0.42px;
+
+  color: #373636;
+}
+
+main {
+  padding: 56px 133px;
+  width: 464px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0.42px;
+  text-align: center;
+
+  color: #000000;
+}
