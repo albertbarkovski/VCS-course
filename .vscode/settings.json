@@ -1,3 +1,14 @@
 {
-  "git.ignoreLimitWarning": true
+  "git.ignoreLimitWarning": true,
+
+  "editor.formatOnSave": true,
+  "editor.folding": true,
+  "editor.unfoldOnClickAfterEndOfLine": false,
+
+  "[html]": {
+    "editor.wordWrap": "off"
+  },
+  "[svg]": {
+    "editor.wordWrap": "off"
+  }
 }
