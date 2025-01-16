@@ -1,0 +1,26 @@
+.navbar-nav li a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #32292f;
+}
+
+.nav-link.active {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #32292f;
+}
+
+.pirmas {
+  background: linear-gradient(90deg, rgba(246, 244, 245, 1) 50%, rgba(255, 255, 255, 1) 50%);
+  padding: 96px 0132px;
+}
