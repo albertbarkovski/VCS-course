@@ -1,0 +1,105 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: black;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+}
+.logo {
+  font-size: 24px;
+}
+
+.nav-list ul li {
+  display: inline;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.main {
+  background-color: rgb(105, 212, 123);
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main h1 {
+  margin: 0;
+}
+
+.main .btn {
+  padding: 10px 20px;
+}
+
+.btn-black {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+}
+
+.btn-white {
+  background-color: unset;
+  color: black;
+  border: 2px solid black;
+}
+
+.info {
+  background-color: aqua;
+}
+
+.info p {
+  margin: 0;
+  padding: 25px 25px;
+  text-align: justify;
+}
+
+.korteles {
+  background-color: rgb(232, 149, 149);
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.kortele {
+  width: 30%;
+  background-color: white;
+  padding: 10px;
+}
+
+.kortele h4 {
+  margin: 0;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 10px;
+}
+
+.footer .text {
+  width: 30%;
+}
+
+.footer-nav {
+  width: 30%;
+}
+
+.footer-nav a {
+  text-decoration: none;
+}
