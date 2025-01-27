@@ -6,7 +6,7 @@ body {
 }
 
 .container-fluid {
-  height: 70vh;
+  height: 689px;
   background-image: url(images/header-img.png);
   width: 100%;
   background-repeat: no-repeat;
@@ -70,4 +70,60 @@ button {
   padding: 60px;
 }
 
-.vidinis;
+.antras .vidinis {
+  display: flex;
+  gap: 30px;
+  background-color: #ffffffcc;
+  border-radius: 8px;
+  padding: 60px 40px;
+}
+
+.trecias {
+  background-color: #fcdfe1;
+  padding: 127px 100px;
+}
+
+.trecias .vidinis {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.trecias .vidinis .textas {
+  width: 40%;
+  background-color: white;
+  padding: 65px 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+  color: #000000;
+  text-align: justify;
+  border-radius: 8px;
+}
+footer {
+  height: 113px;
+  background-color: #000000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+}
+footer .logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.soc-icons svg {
+  margin-left: 15px;
+}
+
+.paveiksliuskas {
+  width: 60%;
+  height: 100%;
+  object-fit: cover;
+}
