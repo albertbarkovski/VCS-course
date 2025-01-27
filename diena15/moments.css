@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d4f1e6;
+  width: 100%;
+  height: 100vh;
+  padding: 130px 150px;
+}
+.uzrasas {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 120%;
+  color: #1f1f1f;
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.images img {
+  height: 450px;
+}
+/* .images img:nth-child(1) {
+  width: calc(30%-300px);
+} */
+.images img:nth-child(2) {
+  width: calc(70%-300px);
+}
+.images img:nth-child(3) {
+  width: calc(70%-300px);
+}
+.images img:nth-child(4) {
+  width: calc(30%-300px) 0%;
+}
