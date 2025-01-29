@@ -75,7 +75,7 @@ nav a {
 }
 
 .kortele {
-  width: 30%;
+  width: calc(33% - 40px);
   background-color: white;
   padding: 10px;
 }
@@ -88,18 +88,39 @@ nav a {
   background-color: black;
   color: white;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   padding: 30px 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-.footer .text {
-  width: 30%;
+.footer ul {
+  list-style: none;
 }
 
-.footer-nav {
-  width: 30%;
+.footer > div {
+  margin: 0 15px;
+  width: calc(33%);
 }
 
 .footer-nav a {
   text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .kortele {
+    width: 100%;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer > div {
+    width: 100%;
+    margin: 20px 0;
+  }
 }
