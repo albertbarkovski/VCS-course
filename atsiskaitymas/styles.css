@@ -1,0 +1,251 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(43, 43, 43, 1);
+  width: 100%;
+  height: 100vh;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+.navbar-nav a {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+  padding: 0 20px;
+}
+
+.navbar-nav button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  width: 152px;
+  height: 60px;
+  background: #a259ff;
+  border-radius: 20px;
+  border: 0;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+}
+
+#pirmas {
+  margin: 80px auto;
+}
+
+#pirmas .pirmas h1 {
+  max-width: 510px;
+  width: 100%;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 67px;
+  line-height: 110%;
+  color: #ffffff;
+}
+
+#pirmas .pirmas p {
+  max-width: 510px;
+  width: 100%;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+#pirmas .pirmas button,
+#pirmas .antras .statistic button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  width: 224px;
+  height: 60px;
+  background: #a259ff;
+  border-radius: 20px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+  border: 0;
+}
+
+#pirmas .statistic {
+  gap: 30px;
+}
+
+#pirmas .statistic .value {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+#pirmas .statistic .prop {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23.99px;
+  line-height: 160%;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+#pirmas .antras .img-name {
+  padding: 20px;
+  width: 510px;
+  height: 109px;
+  background: #3b3b3b;
+  border-radius: 0px 0px 20px 20px;
+  gap: 10px;
+}
+
+#pirmas .antras .name {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+#pirmas .antras .avatar {
+  display: flex;
+  gap: 10px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+#antras {
+  margin: 80px auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#antras h2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+#antras p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+#antras .img-name {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin: 15px 0 10px;
+}
+
+#antras .name {
+  display: flex;
+  gap: 12px;
+}
+
+#antras div {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+#trecias {
+  margin: 80px auto;
+}
+
+#trecias h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+#trecias p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  color: #ffffff;
+}
+
+#trecias button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  width: 247px;
+  height: 60px;
+  border: 2px solid #a259ff;
+  border-radius: 20px;
+  background-color: rgba(43, 43, 43, 1);
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+}
+
+#trecias .creator {
+  padding: 20px;
+  gap: 20px;
+
+  width: 240px;
+  height: 238px;
+
+  background: rgba(59, 59, 59, 1);
+  border-radius: 20px;
+}
