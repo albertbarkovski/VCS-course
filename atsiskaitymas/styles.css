@@ -242,10 +242,120 @@ body {
 #trecias .creator {
   padding: 20px;
   gap: 20px;
-
   width: 240px;
   height: 238px;
-
   background: rgba(59, 59, 59, 1);
   border-radius: 20px;
+}
+
+.footer .stulpelis-2 div:first-child,
+.footer .stulpelis-3 div:first-child {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 160%;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.footer .row:first-child .stulpelis-1 div,
+.footer .row:first-child ul a,
+.footer .row:first-child .stulpelis-3 div:nth-child(2),
+.footer .row:last-child div,
+.footer hr {
+  width: 100%;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #cccccc;
+  text-decoration: none;
+}
+
+.footer .row:first-child ul {
+  list-style: none;
+  padding: 0;
+}
+.footer .row:first-child .stulpelis-3 form {
+  display: flex;
+  background: #ffffff;
+  border-radius: 20px;
+  height: 60px;
+  max-width: 420px;
+}
+
+.footer .row:first-child .stulpelis-3 form input:first-child {
+  width: 60%;
+  background: #ffffff;
+  border-radius: 20px;
+  border: 0;
+  padding: 19px;
+  text-align: center;
+}
+
+.footer .row:first-child .stulpelis-3 form input:last-child {
+  width: 40%;
+  background: #a259ff;
+  border-radius: 20px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+  border: 0;
+  padding: 19px;
+}
+
+.footer .row:last-child .col-12 div {
+  padding-bottom: 40px;
+}
+
+.footer .row:first-child .stulpelis-1 div:nth-child(2) {
+  margin: 30px 0 20px;
+}
+
+.footer .row:first-child .stulpelis-1 div:nth-child(4) {
+  margin: 30px 0 0;
+}
+
+.footer .row:first-child .stulpelis-2 ul {
+  margin: 25px 0 0;
+}
+.footer .row:first-child .stulpelis-2 ul li {
+  margin: 20px 0 0;
+}
+
+.footer .row:first-child .stulpelis-3 div:nth-child(2) {
+  margin: 30px 0 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .footer .row:first-child .stulpelis-1 div {
+    max-width: 238px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer .row:first-child .stulpelis-3 form {
+    flex-direction: column;
+    gap: 20px;
+    max-width: 100%;
+  }
+
+  .footer .row:first-child .stulpelis-3 form input:first-child {
+    width: 100%;
+    padding: 19px;
+  }
+
+  .footer .row:first-child .stulpelis-3 form input:last-child {
+    width: 100%;
+  }
+
+  .footer hr {
+    margin-top: 100px;
+  }
 }
