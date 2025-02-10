@@ -31,21 +31,63 @@
 //   `klaida`;
 // }
 
-let a = 5;
-let b = 1;
+// let a = 20;
+// let b = 5;
 
-if (a > b || a === 0) {
-  console.log(`pirmas ${a > b || a === 0}`);
+// if (a > b || a === 0) {
+//   console.log(`pirmas ${true}`);
+// } else {
+//   console.log(`pirmas ${false}`);
+// }
+
+// if (b > a || b === 5) {
+//   console.log(`antras ${true}`);
+// } else {
+//   console.log(`antras ${false}`);
+// }
+
+// if (b < a && a === 20) {
+//   console.log(`trecias ${true}`);
+// } else {
+//   console.log(`trecias ${false}`);
+// }
+
+// if (b > a && b < 100) {
+//   console.log(`ketvirtas ${true}`);
+// } else {
+//   console.log(`ketvirtas ${false}`);
+// }
+
+const darboVal = 8;
+let vienasKepaluPerValanda = 18;
+let darbuotojuSkaicius = 10;
+let savikaina = 3;
+let kaina = 18;
+let uzsakymai = 1000;
+const kepaluDienai = darboVal * vienasKepaluPerValanda * darbuotojuSkaicius;
+const savikainaVienaiDienai = savikaina * kepaluDienai;
+const apyvartaDienai = kaina * kepaluDienai;
+const pelnas = apyvartaDienai - savikainaVienaiDienai;
+const trukstaKepalu = uzsakymai - kepaluDienai;
+
+console.log(`-------------------------
+Kepykla per 1d.d. iskeps ${kepaluDienai} kepalu, uzsakymas:${uzsakymai} kepalu
+Kepalu savikaina vienos dienos butu: ${savikainaVienaiDienai}$
+-------------------------`);
+
+if (uzsakymai < kepaluDienai) {
+  console.log(`
+Vienos dienos apyvarta butu: ${apyvartaDienai}$
+Vienos dienos pelnas butu: ${pelnas}$
+-------------------------`);
+} else {
+  console.log(`
+Vienos dienos apyvarta ir pelnas butu: 0$, nes truksta ${trukstaKepalu} kepalo
+-------------------------`);
 }
 
-if (b > a || b === 5) {
-  console.log(`antras ${b > a || b === 5}`);
-}
-
-if (b < a && a === 20) {
-  console.log(`trecias ${b < a && a === 20}`);
-}
-
-if (b > a && b < 100) {
-  console.log(`ketvirtas ${b > a && b < 100}`);
+if (kepaluDienai < uzsakymai) {
+  console.log(`Kepykla neispes iskepti uzsakymo, kadangi truksta ${trukstaKepalu} kepalo `);
+} else {
+  console.log(`Kepykla spes paruosti uzsakyma`);
 }
