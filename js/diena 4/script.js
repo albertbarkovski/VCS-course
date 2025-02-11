@@ -115,10 +115,53 @@
 // }
 // console.log("");
 
-let skaicius = 1;
+// let skaicius = 1;
 
+// while (!(skaicius % 3 == 0 && skaicius % 5 == 0)) {
+//   console.log(skaicius);
+//   skaicius++;
+// }
 
-while (!(skaicius % 3 == 0 && skaicius % 5 == 0;)) {
-  console.log(skaicius);
-  skaicius++;
-}
+// let skaicius = 1;
+// let suma = 0;
+// while (skaicius <= 100) {
+//   if (skaicius % 2 == 0) {
+//     suma += skaicius;
+//   }
+//   skaicius++;
+// }
+// console.log(suma);
+
+// let skaicius = 1;
+// let kvadratas = 0;
+
+// while (skaicius < 5) {
+//   kvadratas = skaicius * skaicius;
+//   console.log(skaicius, kvadratas);
+//   skaicius++;
+// }
+
+// let a = 0;
+// let b = 0;
+
+// while (a < Math.floor(Math.random() * 20 + 1)) {
+//   while (b < Math.floor(Math.random() * 100)) {
+//     b++;
+//   }
+//   a++;
+//   console.log(a, b);
+// }
+
+// let a = 0;
+// let b = 0;
+// let suma = 0;
+
+// while (a < Math.floor(Math.random() * 20 + 1)) {
+//   while (b < Math.floor(Math.random() * 100)) {
+//     b++;
+//   }
+//   a++;
+//   suma += b;
+//   console.log(`${a} - ${b}`);
+// }
+// console.log(`suma b:${suma} `);
