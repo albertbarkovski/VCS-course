@@ -165,3 +165,73 @@
 //   console.log(`${a} - ${b}`);
 // }
 // console.log(`suma b:${suma} `);
+
+// 1. Paprastas while ciklas
+// Parašyk kodą, kuris išveda skaičius nuo 10 iki 30, bet praleidžia skaičius, kurie dalūs iš 4.
+
+// let a = 10;
+// while (a <= 30) {
+//   if (a % 4 != 0) {
+//     console.log(a);
+//   }
+//   a++;
+// }
+// 2. for ciklas su break
+// Parašyk kodą, kuris išveda skaičius nuo 1 iki 50, bet sustabdo ciklą, kai pasiekiamas pirmas skaičius, kuris dalus iš 9 ir 5.
+
+// for (i = 1; i <= 50; i++) {
+//   if (i % 9 == 0 && i % 5 == 0) {
+//     break;
+//   }
+//   console.log(i);
+// }
+// 3. while ciklas su continue
+// Parašyk programą, kuri išveda skaičius nuo 1 iki 100, bet praleidžia visus skaičius, kurie:
+// Yra dalūs iš 7, bet ne iš 5.
+
+// let a = 1;
+// while (a <= 100) {
+//   if (a % 7 == 0 && a % 5 != 0) {
+//     a++;
+//     continue;
+//   }
+//   console.log(a);
+//   a++;
+// }
+
+// Užduotis:
+// Parašyk programą, kuri išveda skaičius nuo 1 iki 200, bet praleidžia visus skaičius, kurie:
+
+// Yra dalūs iš 4, bet ne iš 6.
+// Naudok while ciklą ir continue.
+
+// let a = 1;
+// while (a <= 200) {
+//   if (a % 4 == 0 && a % 6 != 0) {
+//     a++;
+//     continue;
+//   }
+//   console.log(a);
+//   a++;
+// }
+
+// 4. Kombinuotas while + for
+// Sukurk programą, kuri naudoja while ciklą skaičiuoti nuo 1 iki 50, bet:
+// Prie visų skaičių, kurie lyginiai, prideda žvaigždutę (*),
+// Naudojant for ciklą, prie visų skaičių, kurie dalūs iš 3, prideda šauktuką (!).
+
+// let i = 1;
+
+// while (i <= 50) {
+//   let output = i;
+//   if (i % 2 == 0) {
+//     output += "*";
+//   }
+//   for (let skaicius = i; skaicius <= i; skaicius++) {
+//     if (skaicius % 3 == 0) {
+//       output += " !";
+//     }
+//   }
+//   console.log(output);
+//   i++;
+// }
