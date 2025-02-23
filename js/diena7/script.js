@@ -116,22 +116,45 @@
 // unikalius skaičius). Pvz jeigu turime masyvus [1, 2, 3, 4] ir [2, 3, 5, 6], tai
 // trečiasis turėtų gautis [1, 2, 3, 4, 5, 6].
 
-let pirmas = [1, 2, 3, 4, 5, 6, 7];
-let antras = [5, 4, 6, 9, 5];
-let trecias = [];
-let neunikalus = [...pirmas, ...antras];
+// let pirmas = [1, 2, 3, 4, 5, 6, 7];
+// let antras = [5, 4, 6, 9, 5];
+// let trecias = [];
+// let neunikalus = [...pirmas, ...antras];
 
-trecias = new Set(neunikalus);
+// trecias = new Set(neunikalus);
 
-console.log(trecias);
+// console.log(trecias);
 
 // 14. Susikurkite du bet kokius masyvus. Raskite kurie elementai egzistuoja tiek
 // viename tiek kitame masyve. Pvz jeigu pirmasis yra [1, 2, 3], o antrasis yra
 // [2, 3, 4], tai atsakymas [2, 3].
 
+// let pirmas = [1, 2, 3, 4];
+// let antras = [1, 3, 4, 5, 6];
+// let dubliuojasi = [];
+
+// for (let i = 0; i < pirmas.length; i++) {
+//   let pirmosSK = pirmas[i];
+
+//   for (let j = 0; j < antras.length; j++) {
+//     let antroSK = antras[j];
+
+//     if (pirmosSK == antroSK) {
+//       dubliuojasi.push(pirmas[i]);
+//     }
+//   }
+// }
+// console.log(dubliuojasi);
+s;
 // 15. Susikurkite skaičių masyvą, kuriame skaičiai nebūtinai eina didėjimo
 // tvarka. Raskite mažiausią teigiamą skaičių kuris neegzistuoja. Pvz jeigu
 // masyvas yra [7, 5, 1, 9, 3, 4], tai atsakymas yra 2.
+
+// let skaiciai = [8, 5, 9, 4, 6, 1, 2, 3, 4, 5, 6, 7];
+
+// for(skaitmuo of skaiciai){
+//   if skai
+// }
 
 // 16. Susikurkite norimą masyvą. Apverskite šį masyvą, kad elementai eitų
 // atvirkščiai. Pvz jeigu turime masyvą [1, 2, 3, 4], tai apvertus turime gauti [4,
