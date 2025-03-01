@@ -145,7 +145,7 @@
 //   }
 // }
 // console.log(dubliuojasi);
-s;
+
 // 15. Susikurkite skaičių masyvą, kuriame skaičiai nebūtinai eina didėjimo
 // tvarka. Raskite mažiausią teigiamą skaičių kuris neegzistuoja. Pvz jeigu
 // masyvas yra [7, 5, 1, 9, 3, 4], tai atsakymas yra 2.
@@ -159,3 +159,9 @@ s;
 // 16. Susikurkite norimą masyvą. Apverskite šį masyvą, kad elementai eitų
 // atvirkščiai. Pvz jeigu turime masyvą [1, 2, 3, 4], tai apvertus turime gauti [4,
 // 3, 2, 1].
+
+let skaiciai = [1, 2, 3, 4];
+
+for (skaitmuo of skaiciai){
+  const atvirksciai=skaiciai[skaitmuo].
+}
