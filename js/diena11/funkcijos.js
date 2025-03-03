@@ -400,7 +400,7 @@ console.log("------21");
 
 function pirminiaiSk(skaicius) {
   let kiekKartuDalinasi = 1;
-  for (i = 1; i <= skaicius; i++) {
+  for (i = 1; i < skaicius; i++) {
     if (skaiciai !== i) {
       if (skaicius % i === 0) {
         kiekKartuDalinasi++;
@@ -429,3 +429,71 @@ let sk1 = 7;
 let sk2 = 1;
 
 sumosIsvedimas(sk1, sk2);
+
+// 23.Susikurkite funkciją kuri priimtų skaičių masyvą per argumentus. Ši funkcija turėtų rasti duotųjų skaičių sumą ir grąžinti gautą atsakymą. Už funkcijos ribų susikurkite du skaičių masyvus ir užpildykite juos duomenimis. Iškvieskite turimą funkciją du kartus, jai abu kartus perduodant skirtingą masyvą. Gautus atsakymus išveskite. Taip pat, raskite kuri suma gavosi didesnė ir išveskite atsakymą.
+console.log("------23");
+
+function masyvoSkaiciuSumas23(skaiciuMasyvas23) {
+  let suma = 0;
+  for (let skaicius of skaiciuMasyvas23) {
+    suma += skaicius;
+  }
+  return suma;
+}
+
+let skaiciuMasyvas231 = [5, 4, 2, 5, 6, 4, 5, 4, 7, 4, 7, 10];
+let skaiciuMasyvas232 = [1, 4, 7, 8, 9, 6, 3, 2, 5, 4, 5];
+
+console.log("Pirmas Masyvas suma: " + masyvoSkaiciuSumas23(skaiciuMasyvas231));
+console.log("Antras Masyvas suma: " + masyvoSkaiciuSumas23(skaiciuMasyvas232));
+
+if (masyvoSkaiciuSumas23(skaiciuMasyvas231) > masyvoSkaiciuSumas23(skaiciuMasyvas232)) {
+  console.log("Pirmo masyvo suma yra didesne");
+} else if (masyvoSkaiciuSumas23(skaiciuMasyvas232) > masyvoSkaiciuSumas23(skaiciuMasyvas231)) {
+  console.log("Antro masyvo suma yra didesne");
+} else {
+  console.log("Masyvu sumos yra lygios");
+}
+
+// 24.Susikurkite funkciją kuri per argumentus priimtų žodžių masyvą. Ji turėtų rasti ir grąžinti ilgiausią žodį masyve. Už funkcijos ribų susikurkite žodžių masyvą. Iškvieskite funkciją perduodant jai žodžių masyvą. Gautą atsakymą išveskite, taip pat, nurodykite šio žodžio ilgį.
+console.log("------24");
+
+function ilgiausisZodis24(masyvas24) {
+  let max = masyvas24[0];
+  for (let zodis of masyvas24) {
+    if (zodis.length > max.length) {
+      max = zodis;
+    }
+  }
+  return max;
+}
+let zodziuMasyvas241 = ["asilas", "kiaule", "arklys", "bite", "kupranugaris", "kintauras"];
+let ilgiausias = ilgiausisZodis24(zodziuMasyvas241);
+
+console.log(`ilgiausis zodis : ${ilgiausias}, jo ilgis : ${ilgiausias.length}`);
+// 25.Susikurkite funkciją kuri per argumentus priimtų pažymių masyvą. Ji turėtų patikrinti ar visi pažymiai teigiami: jei visi teigiami turėtų grąžintų true kaip atsakymą, o jei yra bent vienas neigiamas - false. Susikurkite du pažymių masyvus. Iškvieskite šią funkciją du kartus, abu kartus perduodant skirtingus masyvus. Gautus atsakymus paverskite į tekstą (jeigu gavote true - išveskite tekstą 'visi studento pažymiai teigiami', jei false - 'studentas turi bent vieną neigiamą pažymį'). Šiam iškonvertavimui iš true/false į tekstą galite pamėginti pasikurti atskirą funkciją, jai perduoti kitos funkcijos atsakymą.
+console.log("------25");
+
+function arTeigiami25(pazymiuMasyvas25) {
+  let neigiaimi = 0;
+  for (let pazymis of pazymiuMasyvas25) {
+    if (pazymis <= 4) {
+      neigiaimi++;
+    }
+  }
+  if (neigiaimi < 1) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+function tekstas25(arTeigiami) {
+  return arTeigiami ? "Visi teigiami" : "Yra neigiamu pazymiu";
+}
+
+let pazymiai251 = [7, 8, 9, 5, 4, 7, 8];
+let pazymiai252 = [9, 8, 7, 8, 9, 8, 7];
+
+console.log(tekstas25(arTeigiami25(pazymiai251)));
+console.log(tekstas25(arTeigiami25(pazymiai252)));
