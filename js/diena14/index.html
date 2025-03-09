@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="content">
+      <div id="duomenis">
+        <span>Saskaita</span>
+        <div>
+          <input id="saskaita" type="number" placeholder="0$" />
+        </div>
+        <span>Pasirink arbatpinigius</span>
+        <div>
+          <button id="arbatpinigiai-5" value="5">5%</button>
+          <button id="arbatpinigiai-10" value="10">10%</button>
+          <button id="arbatpinigiai-15" value="15">15%</button>
+          <button id="arbatpinigiai-25" value="25">25%</button>
+          <button id="arbatpinigiai-50" value="50">50%</button>
+          <input type="number" min="1" max="100" id="arbatpinigiai-x" placeholder="custum" />
+        </div>
+        <span>Svečiu skaičius</span>
+        <div><input type="number" id="sveciu-skaicius" placeholder="5 svečiai" /></div>
+      </div>
+      <div id="atsakymai">
+        <div id="pirmas">
+          <div>
+            <span>Arbatpinigiai</span>
+            <span>/Person</span>
+          </div>
+          <div id="arbatpinigiai-asmeniui"></div>
+        </div>
+        <div id="antras">
+          <div>
+            <span>Saskaita</span>
+            <span>/Person</span>
+          </div>
+          <div id="saskaita-asmeniui">fd</div>
+        </div>
+        <button id="skaiciuoti">Skaičiuoti</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

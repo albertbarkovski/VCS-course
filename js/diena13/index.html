@@ -94,6 +94,19 @@
             <option value="aqua">Aqua</option>
             <option value="red">Red</option>
             <option value="yellow">Yellow</option>
+            <option value="black">Black</option>
+            <option value="white">White</option>
+          </select>
+        </div>
+        <div class="parametras">
+          <p>Teksto spalva:</p>
+          <select id="teksto-spalvos-pasirinkimas">
+            <option value="burlywood">Burlywood</option>
+            <option value="aqua">Aqua</option>
+            <option value="red">Red</option>
+            <option value="yellow">Yellow</option>
+            <option value="black">Black</option>
+            <option value="white">White</option>
           </select>
         </div>
         <div class="parametras">
@@ -119,6 +132,7 @@
       <p>
         <button onclick="zodziuKiekis()">Zodziu kiekis</button>
         <button onclick="ilgiausiasZodis()">Ilgiausias zodis</button>
+        <button onclick="trumpiausiasZodis()">Trumpiausias zodis</button>
       </p>
       <div id="ats15"></div>
     </div>
@@ -138,7 +152,22 @@
       <button id="kitas-perjungti-mygtukas">Rodyti</button>
       <p id="kitas-perjungti-tekstas">Tekstas</p>
     </div>
-    <div id="devynioliktas"></div>
+    <div id="devynioliktas">
+      <!-- <button id="testbtn">Veikia</button>
+      <p id="testpar">Lorem ipsum dolor sit amet.</p> -->
+      <!-- testas -->
+      <p id="paragrafas-19">Slepti si teksta ant paspaudimo</p>
+    </div>
+
+    <!-- 3. Sukurkite kelis blokelius, kuriuose būtų teksto. Paspaudus ant mygtuko, blokeliai, kurių tekste yra daugiau nei 100 simbolių turėtų kaip nors nusispalvinti.-->
+    <div id="dvidesimtas">
+      <p class="teksto-blokas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, quidem. Voluptas, obcaecati quia impedit quo repellendus eius, architecto omnis excepturi perferendis quasi maiores dignissimos mollitia, nemo repudiandae sapiente error voluptates officiis itaque iusto soluta? Deleniti, in fugit. Praesentium, nostrum laborum veniam enim earum quia impedit harum ad cum in voluptatibus?</p>
+      <p class="teksto-blokas">itaque iusto soluta? Deleniti, in fugit. Praesentium, nostrum laborum veniam enim earum quia impedit harum ad cum in voluptatibus?</p>
+      <button id="btn20">Patikrinimas</button>
+    </div>
+
+    <!-- 4. Sukurkite du teksto laukelius ir mygtuką skaičiavimų atlikimui. Vartotojui suvedus skaičius į laukelius ir paspaudus ant mygtuko, turi pasirodyti sudėties, atimties, sandaugos ir dalybos veiksmai. (Pastaba: reikšmę iš input galima pasiimti per .value).  -->
+    <!-- 5. Padarykite, kad paspaudus ant mygtuko atsidarytų iššokantis langas (modal), kuriame būtų jo išjungimo mygtukas, ant jo paspaudus iššokantis langas turėtų užsidaryti. (Pastaba: per visą ekraną galima uždėti su position: fixed; bei nurodant atitinkamą jo vietą ekrane, o togglint rodymą ar nerodymą galima uždedant arba nuimant display none arba block).  -->
     <script src="script.js"></script>
   </body>
 </html>

@@ -47,3 +47,9 @@ textarea {
 #astuonioliktas #kitas-perjungti-tekstas {
   display: none;
 }
+
+#paragrafas-19:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+}
