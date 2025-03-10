@@ -1,46 +1,63 @@
 <!DOCTYPE html>
-<html lang="lt">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cechas</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;900&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="scripts.js" defer></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="block-wrapper">
-      <h1>Medienos cechas</h1>
-    </header>
-    <div class="info-wrapper block-wrapper">
-      <h2>Pradinė informacija</h2>
-      <div class="input-wrapper">
-        <label for="ilgis">Ilgis:</label>
-        <input type="number" min="0" step="1" placeholder="0" id="ilgis" />
+    <main>
+      <div class="container">
+        <div class="topSection">
+          <div class="label">
+            <label for="input">Bill</label>
+          </div>
+
+          <div class="input-wrapper">
+            <input type="number" placeholder="0.0" id="input" />
+            <span>&dollar;</span>
+          </div>
+
+          <div class="label">
+            <label for="customTim">Select Tip % </label>
+          </div>
+
+          <div class="btnContainer">
+            <button class="btn">5%</button>
+            <button class="btn active">10%</button>
+            <button class="btn">15%</button>
+            <button class="btn">25%</button>
+            <button class="btn">50%</button>
+            <input type="number" placeholder="Custom" id="CustomTip" />
+          </div>
+
+          <div class="label">
+            <label for="people">Number of people</label>
+            <p id="error"></p>
+          </div>
+
+          <div class="peopleWrapper">
+            <input type="number" placeholder="1" id="people" />
+            <span>&#9760; </span>
+          </div>
+        </div>
+
+        <div class="bottomSection">
+          <div class="amount">
+            <div class="desc">
+              <p>Tip Amount <br /><span>/ Person</span></p>
+              <div class="tipValue">&dollar;5</div>
+            </div>
+            <div class="desc">
+              <p>Total <br /><span>/ Person</span></p>
+              <div class="tipValue">&dollar;200</div>
+            </div>
+          </div>
+          <button class="reset">Reset</button>
+        </div>
       </div>
-      <div class="input-wrapper">
-        <label for="plotis">Plotis:</label>
-        <input type="number" min="0" step="1" placeholder="0" id="plotis" />
-      </div>
-      <div class="input-wrapper">
-        <label for="storis">Storis:</label>
-        <input type="number" min="0" step="1" placeholder="0" id="storis" />
-      </div>
-      <div class="input-wrapper">
-        <label for="kiekis">Kiekis:</label>
-        <input type="number" min="0" step="1" placeholder="0" id="kiekis" />
-      </div>
-      <button id="calculate">Skaičiuoti</button>
-      <button id="reset">Iš naujo</button>
-    </div>
-    <div class="calc-wrapper block-wrapper">
-      <h2>Skaičiavimai</h2>
-      <div id="results">
-        <p>Kol kas nieko nėra.</p>
-      </div>
-    </div>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
