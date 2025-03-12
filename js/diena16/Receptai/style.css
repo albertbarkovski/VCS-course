@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.topSection {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 16px;
+}
+.topSection .dish-list {
+  display: flex;
+  flex-direction: row;
+  gap: 27px;
+}
+.topSection .dish-list .dish {
+  display: flex;
+  flex-direction: column;
+  width: 135px;
+  border: 1px solid #e6e6e6;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+.green-tick {
+  position: absolute;
+  right: -16px;
+  top: -6px;
+  display: none;
+}
+.dish.active .green-tick {
+  display: block;
+}
+
+.topSection .dish-list .dish :nth-child(2) {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  justify-content: center;
+  display: flex;
+  margin-block: 13px 9px;
+}
+.topSection .dish-list .dish :nth-child(3) {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  color: #000000;
+  margin: 0 10px 21px;
+  text-align: left;
+}
+
+.middleSection {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.middleSection .slider-container {
+  position: relative;
+  width: 216px;
+}
+.middleSection .slider-container #slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 2px;
+  border-radius: 5px;
+  background: black;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+  color: #000000;
+}
+.middleSection .slider-container .slider-value {
+  position: absolute;
+  top: -15px;
+  left: 50px;
+  transform: translateX(-50%);
+  color: black;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.middleSection #slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: black;
+  cursor: pointer;
+}
+
+.bottomSection {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+} /*# sourceMappingURL=style.css.map */
