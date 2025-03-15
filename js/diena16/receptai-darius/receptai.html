@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="receptai.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="block">
+        <h2>Pasirinkite receptą:</h2>
+        <div class="recipes">
+          <div class="recipe" data-receptas="vistiena">
+            <svg
+              width="25"
+              height="25"
+              viewBox="0 0 25 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="12.5" cy="12.5" r="12.5" fill="#0FC261" />
+              <line
+                x1="6.35355"
+                y1="9.64645"
+                x2="12.3536"
+                y2="15.6464"
+                stroke="white"
+              />
+              <line
+                x1="11.6464"
+                y1="15.6464"
+                x2="19.6464"
+                y2="7.64645"
+                stroke="white"
+              />
+            </svg>
+            <img src="1.jpg" />
+            <div>
+              <h3>Vištiena su salotom</h3>
+              <p>
+                Amet et at aliquam duis ut morbi turpis. Quis cursus tincidunt
+                risus purus faucibus elit ut. Pellentesque montes.
+              </p>
+            </div>
+          </div>
+          <div class="recipe" data-receptas="tortas">
+            <svg
+              width="25"
+              height="25"
+              viewBox="0 0 25 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="12.5" cy="12.5" r="12.5" fill="#0FC261" />
+              <line
+                x1="6.35355"
+                y1="9.64645"
+                x2="12.3536"
+                y2="15.6464"
+                stroke="white"
+              />
+              <line
+                x1="11.6464"
+                y1="15.6464"
+                x2="19.6464"
+                y2="7.64645"
+                stroke="white"
+              />
+            </svg>
+            <img src="2.jpg" />
+            <div>
+              <h3>Tortas su mėlynėm</h3>
+              <p>
+                Amet et at aliquam duis ut morbi turpis. Quis cursus tincidunt
+                risus purus faucibus elit ut. Pellentesque montes.
+              </p>
+            </div>
+          </div>
+          <div class="recipe" data-receptas="makaronai">
+            <svg
+              width="25"
+              height="25"
+              viewBox="0 0 25 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="12.5" cy="12.5" r="12.5" fill="#0FC261" />
+              <line
+                x1="6.35355"
+                y1="9.64645"
+                x2="12.3536"
+                y2="15.6464"
+                stroke="white"
+              />
+              <line
+                x1="11.6464"
+                y1="15.6464"
+                x2="19.6464"
+                y2="7.64645"
+                stroke="white"
+              />
+            </svg>
+            <img src="3.jpg" />
+            <div>
+              <h3>Makaronai su mėsa</h3>
+              <p>
+                Amet et at aliquam duis ut morbi turpis. Quis cursus tincidunt
+                risus purus faucibus elit ut. Pellentesque montes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="block">
+        <h2>Kiek porcijų gaminsite?</h2>
+        <div id="rangeValue"></div>
+        <input
+          type="range"
+          min="1"
+          max="10"
+          value="6"
+          class="slider"
+          id="qty"
+        />
+      </div>
+      <div class="block">
+        <h2>Jums reikės šių ingredientų, tokiais kiekiais:</h2>
+
+        <div id="receptas"></div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="receptai.js"></script>
+  </body>
+</html>
