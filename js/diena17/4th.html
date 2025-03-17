@@ -1,0 +1,49 @@
+<!-- 🎯 Exercise: Favorite Color Input
+Task:
+Create a simple form with:
+
+An input field where the user can enter their name.
+A dropdown (<select>) where they can pick their favorite color (Red, Blue, Green, Yellow).
+A button to submit the form.
+A <div> to display the result.
+When the button is clicked:
+
+If the user enters a name and selects a color, display:
+Hello [name]! Your favorite color is [color].
+Change the text color to the selected favorite color.
+If the input is empty, display an error message in red. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color-input</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" id="user-name" placeholder="name" />
+
+    <select name="color" id="select-color">
+      <option value="">Select a color</option>
+      <option value="green">green</option>
+      <option value="black">black</option>
+      <option value="yellow">yellow</option>
+      <option value="pink">pink</option>
+      <option value="blue">blue</option>
+      <option value="aqua">aqua</option>
+    </select>
+
+    <button id="btn">submit</button>
+
+    <div class="result"></div>
+
+    <script src="4th.js"></script>
+  </body>
+</html>

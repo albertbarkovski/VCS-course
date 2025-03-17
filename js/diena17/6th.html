@@ -1,0 +1,30 @@
+<!-- Exercise:
+Create a simple grade calculator. The user enters their name and a score (0-100), and when they click the button, the app should display:
+
+A (90-100) → Green message
+B (80-89) → Blue message
+C (70-79) → Orange message
+D (60-69) → Red message
+F (0-59) → Dark red message
+If the input is invalid (empty name, non-numeric score, or score out of range), show an error message. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+      }
+    </style>
+  </head>
+ <input type="text" placeholder="name" id="name">
+ <input type="number" min="0" max="100" placeholder="score 0-100" id="score">
+ <button class="btn">Click</button>
+ <div class="result"></div>
+    <script src="6th.js"></script>
+  </body>
+</html>

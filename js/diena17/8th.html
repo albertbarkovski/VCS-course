@@ -1,0 +1,28 @@
+<!-- Exercise: Simple To-Do List
+Create a basic to-do list where the user can:
+✔ Enter a task in an input field
+✔ Add the task to a list when they click the button
+✔ Remove a task by clicking on it-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        gap: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" id="taskInput" placeholder="Enter a task" />
+    <button class="btn">Add Task</button>
+    <ul class="taskList"></ul>
+
+    <script src="8th.js"></script>
+  </body>
+</html>

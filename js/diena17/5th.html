@@ -1,0 +1,30 @@
+<!-- Task:
+Create a simple age verification system. The user enters their name and age, then clicks the "Check" button.
+
+If the user is 18 or older, display:
+✅ "Hello [Name], you are allowed!" (in green)
+If they are under 18, display:
+❌ "Sorry [Name], you are too young!" (in red)
+If the input is missing, show an error message. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" placeholder="name" id="name" />
+    <input type="number" placeholder="age" id="age" />
+    <button class="btn">Check</button>
+    <div class="result"></div>
+    <script src="5th.js"></script>
+  </body>
+</html>
