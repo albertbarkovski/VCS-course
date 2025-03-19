@@ -10,5 +10,6 @@
   },
   "[svg]": {
     "editor.wordWrap": "off"
-  }
+  },
+  "livePreview.defaultPreviewPath": "/js/diena18/async.html"
 }

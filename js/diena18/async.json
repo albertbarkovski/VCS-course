@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Vištiena su salotom",
+    "ingredients": {
+      "vištiena": 200,
+      "salotos": 100,
+      "pomidorai": 2,
+      "druska": "pagal skonį",
+      "pipirai": "pagal skonį"
+    }
+  },
+  {
+    "name": "Tortas su mėlynėm",
+    "ingredients": {
+      "medus": 150,
+      "mėlynės": 100,
+      "kremas": 100,
+      "lakštai": 5
+    }
+  },
+  {
+    "name": "Makaronai su mėsa",
+    "ingredients": {
+      "makaronai": 200,
+      "salotos": 100,
+      "mėsa": 150,
+      "kiaušinis": 3,
+      "druska": "pagal skonį",
+      "pipirai": "pagal skonį"
+    }
+  }
+]
