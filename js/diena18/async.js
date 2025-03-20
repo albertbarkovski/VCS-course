@@ -1,30 +1,31 @@
 const getData = async (url) => {
-  const response = await fetch(url);
-  if (response.status === 200) {
-    return response.json();
-  } else {
-    throw "Ivyko klaida";
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw `Įvyko klaida: ${response.status} - ${response.statusText}`;
+    }
+    return await response.json();
+  } catch (error) {
+    console.error("Klaida gaunant duomenis:", error);
+    return null;
   }
 };
 
-getData("async.json")
-  .then((response) => {
-    console.log(response[0]);
-  })
-  .catch((response) => {
-    console.log(response);
-  });
-getData("async.json")
-  .then((response) => {
-    console.log(response[1]);
-  })
-  .catch((response) => {
-    console.log(response);
-  });
-getData("async.json")
-  .then((response) => {
-    console.log(response[2]);
-  })
-  .catch((response) => {
-    console.log(response);
-  });
+async function patikrintiZodzioIlgi(cbfunkcija) {
+  const zodziai = await getData(
+    "https://jsonplaceholder.typicode.com/comments"
+  );
+
+  if (!zodziai) return;
+
+  const pirmasPavadinimoZodis = zodziai.map(
+    (irasas) => irasas.name.split(" ")[0]
+  );
+  pirmasPavadinimoZodis.forEach(cbfunkcija);
+}
+
+function zodzioIlgis(zodis) {
+  console.log(zodis, "ilgis", zodis.length);
+}
+
+patikrintiZodzioIlgi(zodzioIlgis);

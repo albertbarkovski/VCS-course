@@ -1,0 +1,23 @@
+[
+  {
+    "rida": 250000,
+    "marke": "BMW",
+    "modelis": "535tds",
+    "metai": 2000,
+    "kaina": 7000
+  },
+  {
+    "rida": 30000,
+    "marke": "Volvo",
+    "modelis": "XC90",
+    "metai": 2020,
+    "kaina": 15000
+  },
+  {
+    "rida": 200000,
+    "marke": "Audi",
+    "modelis": "R8",
+    "metai": 2009,
+    "kaina": 25000
+  }
+]
