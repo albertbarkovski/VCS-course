@@ -1,0 +1,37 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Kas ir Kodel?",
+      "views": 100,
+      "body": "lLorem ipsum dolor sit amet consectetur adipisicing elit. Rerum at id sunt officia aliquid reiciendis deserunt ea laudantium rem praesentium atque ex porro et quos, possimus natus voluptatem aperiam recusandae.",
+      "likes": 678
+    },
+    {
+      "id": "2",
+      "title": "Kaip ir Kur?",
+      "views": 200,
+      "body": "lLorem ipsum dolor sit amet consectetur adipisicing elit. Rerum at id sunt officia aliquid reiciendis deserunt ea laudantium rem praesentium atque ex porro et quos, possimus natus voluptatem aperiam recusandae.",
+      "likes": 89
+    },
+    {
+      "id": "2",
+      "title": "Nes ir Todel",
+      "views": 200,
+      "body": "lLorem ipsum dolor sit amet consectetur adipisicing elit. Rerum at id sunt officia aliquid reiciendis deserunt ea laudantium rem praesentium atque ex porro et quos, possimus natus voluptatem aperiam recusandae.",
+      "likes": 890
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "postId": "1",
+      "body": "lLorem ipsum atque ex porro et quos, possimus natus voluptatem aperiam recusandae."
+    },
+    {
+      "id": "2",
+      "postId": "1",
+      "body": "lLorem ipsum dolor sit amet consectetur  voluptatem aperiam recusandae."
+    }
+  ]
+}
