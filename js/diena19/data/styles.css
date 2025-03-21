@@ -1,0 +1,42 @@
+body {
+  background-color: rgba(128, 128, 128, 0.315);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 20px;
+  height: 80px;
+  align-items: center;
+}
+
+.btn-new-template {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(71, 181, 131);
+  color: white;
+}
+.btn-new-template:hover {
+  background-color: rgba(71, 181, 132, 0.558);
+  color: black;
+}
+
+.irasai {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.post {
+  border-radius: 20px;
+  background-color: white;
+  padding: 20px;
+}
+
+.post-btn {
+  border: none;
+  background-color: unset;
+  color: rgb(71, 181, 131);
+  cursor: pointer;
+}
