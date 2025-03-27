@@ -1,8 +1,0 @@
-[
-  { "name": "apple", "image": "fruits-img/apple.jpeg" },
-  { "name": "grape", "image": "fruits-img/grape.jpeg" },
-  { "name": "mango", "image": "fruits-img/mango.jpeg" },
-  { "name": "pineapple", "image": "fruits-img/apple.jpeg" },
-  { "name": "strawberry", "image": "fruits-img/apple.jpeg" },
-  { "name": "watermelon", "image": "fruits-img/watermelon.jpeg" }
-]
