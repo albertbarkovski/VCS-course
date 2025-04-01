@@ -1,0 +1,13 @@
+h4 {
+  font-style: italic;
+}
+
+.paslauga-list {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(45, 0, 128);
+  width: 500px;
+  border-radius: 10px;
+  border: 2px solid white;
+  padding: 20px;
+}
