@@ -1,0 +1,9 @@
+td {
+  border: 2px solid whitesmoke;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
