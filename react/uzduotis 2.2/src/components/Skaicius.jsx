@@ -1,5 +1,6 @@
 const Skaicius = () => {
   let skaicius = 66;
+
   const arLyginis = (sk) => {
     if (sk % 2 === 0) return "lyginis";
     else return "nelyginis";

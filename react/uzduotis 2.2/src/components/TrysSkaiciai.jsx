@@ -5,14 +5,43 @@
 // 4. Susikurkite funkciją, kuri rastų visų šių trijų skaičių sumą, šią funkciją iškvieskite.
 
 const TrysSkaiciai = () => {
-  let sk1 = 33;
-  let sk2 = 43;
-  let sk3 = 4;
+  let sk1 = 3;
+  let sk2 = 4;
+  let sk3 = 9;
 
-  const allSkinOne = (sk1, sk2, sk3) => {
-    return sk1, sk2, sk3;
+  const allInOne = () => {
+    return (
+      <div>
+        {sk1},{sk2},{sk3}
+      </div>
+    );
   };
-  return <>{allSkinOne(sk1, sk2, sk3)}</>;
+  const didziausias = () => {
+    let didziausiasSk = sk1;
+    if (sk2 > sk1 && sk2 > sk3) {
+      didziausiasSk = sk2;
+    } else if (sk3 > sk1 && sk3 > sk2) {
+      didziausiasSk = sk3;
+    } else {
+      didziausiasSk = sk1;
+    }
+    return didziausiasSk;
+  };
+
+  const skaiciuSuma = () => {
+    const skaiciai = [];
+    skaiciai.push(sk1, sk2, sk3);
+    let suma = skaiciai.reduce((a, b) => a + b, 0);
+    return suma;
+  };
+
+  return (
+    <>
+      <div>Trys skaiciai yra: {allInOne()}</div>
+      <div>Didziausias is ju yra skaicius: {didziausias()}</div>
+      <div>Bendra skaiciu suma yra: {skaiciuSuma()}</div>
+    </>
+  );
 };
 
 export default TrysSkaiciai;
