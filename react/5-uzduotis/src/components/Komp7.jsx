@@ -32,8 +32,8 @@ const Komp7 = () => {
       <h1>Straipsniai</h1>
       <div className="straipsniu-sarasas">
         {straipsniai.length > 0 ? (
-          straipsniai.map((straipsnis) => (
-            <div className="straipsnis">
+          straipsniai.map((straipsnis, i) => (
+            <div key={i} className="straipsnis">
               <h3>{straipsnis.pavadinimas}</h3>
               <p>{straipsnis.tekstas}</p>
             </div>

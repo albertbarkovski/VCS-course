@@ -18,9 +18,9 @@ const Komp8 = () => {
   return (
     <div>
       <div>
-        {salys.map((salis) =>
+        {salys.map((salis, i) =>
           salys.length > 0 ? (
-            <div>
+            <div key={i}>
               <h2>Salis: {salis.pavadinimas}</h2>
               <h3>Sostine:{salis.sostinė}</h3>
               <p>

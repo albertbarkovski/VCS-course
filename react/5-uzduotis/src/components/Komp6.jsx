@@ -17,7 +17,7 @@ const Komp6 = () => {
       <table>
         {temperaturos.length > 0 ? (
           temperaturos.map((temperatura, i) => (
-            <tr>
+            <tr key={i}>
               <td>{i + 1}</td>
               <td>{temperatura}</td>
             </tr>

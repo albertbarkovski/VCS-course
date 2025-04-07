@@ -11,8 +11,8 @@ const Komp5 = () => {
     <div>
       {spalvos.length > 0 ? (
         <ol>
-          {spalvos.map((spalva) => (
-            <li>{spalva}</li>
+          {spalvos.map((spalva, i) => (
+            <li key={i}>{spalva}</li>
           ))}
         </ol>
       ) : (

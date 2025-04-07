@@ -17,8 +17,8 @@ const Komp9 = () => {
   return (
     <div>
       {kursai.length > 0 ? (
-        kursai.map((kursas) => (
-          <div>
+        kursai.map((kursas, i) => (
+          <div key={i}>
             <div>Kurso pavadinimas: {kursas.pavadinimas}</div>
             <div>Kurso trukme: {kursas.trukme}</div>
             <div>Kurso kaina: {kursas.kaina}</div>
