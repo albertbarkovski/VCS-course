@@ -9,7 +9,7 @@ import Zuikis from "./components/Zuikis";
 function App() {
   return (
     <>
-      {/* <Zodis />
+      <Zodis />
       <hr />
       <Zuikis />
       <hr />
@@ -18,7 +18,7 @@ function App() {
       <VardoIvedimas />
       <hr />
       <Slaptazodis />
-      <hr /> */}
+      <hr />
       <Uzvedimas />
     </>
   );
