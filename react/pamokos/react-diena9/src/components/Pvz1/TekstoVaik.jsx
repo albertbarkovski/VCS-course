@@ -2,7 +2,7 @@ const TekstoVaik = (props) => {
   const patikrinimas = () => {
     if (
       props.tekstas &&
-      props.tekstas.split("").filter((r) => r == "a").length > 0
+      props.tekstas.split("").filter((raide) => raide == "a").length > 0
     ) {
       return "Tekste yra reide A";
     } else {

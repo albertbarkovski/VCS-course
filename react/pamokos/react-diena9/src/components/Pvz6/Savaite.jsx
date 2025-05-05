@@ -5,7 +5,7 @@ const Savaite = () => {
   return (
     <div>
       <h2>Savaite</h2>
-      <div>
+      {/* <div>
         {temperaturos.map((temp, i) => (
           <p key={i}>Dienos temperatura: {temp}</p>
         ))}
@@ -19,7 +19,7 @@ const Savaite = () => {
         <Diena temp={temperaturos[5]} />
         <Diena temp={temperaturos[6]} />
       </div>
-      <hr />
+      <hr /> */}
       <div>
         {temperaturos.map((temp, i) => (
           <Diena key={i} temp={temp} />

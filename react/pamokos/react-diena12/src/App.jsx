@@ -1,10 +1,10 @@
 import "./App.css";
-import Pasirinkimai from "./components/Pvz1/Pasirinkimai";
+import CounterTev from "./components/counter/CounterTev";
 
 function App() {
   return (
     <>
-      <Pasirinkimai />
+      <CounterTev />
     </>
   );
 }
