@@ -1,8 +1,11 @@
 import React from "react";
 
-const Mygtukas = ({ miestas }) => {
+const Mygtukas = (props) => {
+  const miestas = props.miestas;
   const paspaudusFn = (event) => {
     console.log(event.target.innerText);
+
+    props.griztaReiksme(event.target.innerText);
   };
   return (
     <>

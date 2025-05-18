@@ -1,3 +1,7 @@
+// Vaikinis komponentas „CounterMygtukai“
+// 1. Šiame komponente susikurkite bent 3 mygtukus, kur kiekvienas pasakytų skirtingą counterio pokyčio modifikaciją (+1, +2, +5).
+// 2. Padarykite, kad paspaudus ant atitinkamo mygtuko, būtų išsiųsta atitinkama paspaudimo reikšmę į tėvinį komponentą.
+
 import React from "react";
 
 const CounterMygtukai = (props) => {
