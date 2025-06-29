@@ -1,0 +1,60 @@
+.gallery {
+  width: 40%;
+  margin-block: 62px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gallery .main-img img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  height: 400px;
+}
+.gallery .main-img {
+  position: relative;
+}
+
+.gallery .main-img .buttons button {
+  border: 0;
+  background-color: unset;
+  position: absolute;
+  cursor: pointer;
+  width: 40px;
+}
+.gallery .main-img .buttons button img {
+  height: 20%;
+}
+
+.buttons .prev {
+  top: 50%;
+  left: 20px;
+}
+
+.buttons .next {
+  top: 50%;
+  right: 20px;
+}
+
+.gallery .navigation {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+.gallery .navigation div {
+  width: 20%;
+}
+
+.gallery .navigation div img {
+  width: 100%;
+  max-height: 150px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.gallery .navigation div img.active {
+  border: 5px solid rgb(231, 166, 25);
+  padding: 3px;
+}

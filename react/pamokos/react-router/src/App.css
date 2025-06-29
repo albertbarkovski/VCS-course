@@ -1,0 +1,24 @@
+.meniu {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.meniu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  justify-content: center;
+}
+
+.meniu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.meniu ul li a:hover {
+  text-decoration: underline;
+}
